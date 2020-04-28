@@ -20,20 +20,20 @@
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Cursos</a></li>
+                <li><a href="cursos.html">Cursos</a></li>
             </ul>
         </nav>
 
         <main>
             <aside>
                 <ul>
-                    <li><a href="#">Introduccion</a></li>
-                    <li><a href="#">Canal de Youtube</a></li>
-                    <li><a href="#">Redes Sociales</a></li>
+                    <li><a href="#introduccion">Introduccion</a></li>
+                    <li><a href="#canal-de-youtube">Canal de Youtube</a></li>
+                    <li><a href="#redes-sociales">Redes Sociales</a></li>
                 </ul>
             </aside>
 
-            <section>
+            <section id="introduccion">
                 <h2>Introduccion</h2>
                 <p>
                     Esta pagina es sobre <strong>Programacion Para Personas</strong>, en la cual
@@ -46,20 +46,24 @@
                     <li>Que sea sencillo el proceso de aprendizaje</li>
                     <li>Divertirte</li>
                 </ol>
+                <p>Puedes <a href="static/ejemplo.txt" download="manual.txt">descargar nuestro manual</a> gratuitamente desde aqui!</p>
             </section>
 
-            <section>
+            <section id="canal-de-youtube">
                 <h2>Canal de Youtube</h2>
-                <p>Puedes encontrarnos en youtube!</p>
+                <p>Puedes encontrarnos en <a href="https://www.youtube.com/channel/UCQ-TL9pE-bhHgNYJoW8Vdpg" title="Nuestro canal de youtube acerca de programacion!">youtube</a>!</p>
             </section>
 
-            <section>
+            <section id="redes-sociales">
                 <h2>Redes Sociales</h2>
                 <p>Tambien estamos en redes sociales!</p>
             </section>
         </main>
 
-        <footer>2020</footer>
+        <footer>
+            <p><a href="mailto:programacionparapersonas@gmail.com">Contactanos!</a></p>
+            <p>2020</p>
+        </footer>
 
         <script src="assets/js/index.js"></script>
     </body>
